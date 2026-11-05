@@ -46,7 +46,10 @@ function BasicProps() {
         onClick={() => setClickCount(clickCount + 1)}
       />
 
-      <span>Click Count : {clickCount}</span>
+      <div className="mt-6 p-4 bg-blue-50 rounded-lg ">
+        <p className="text-blue-600">Click Count: {""}</p>
+        <span className="text-blue-600 font-bold">{clickCount}</span>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import "./App.css";
-import BasicProps from "./components/BasicProps";
+import BasicProps from "./components/BasicProps.jsx";
 import ChildrenProps from "./components/ChildrenProps";
 import ComplexProps from "./components/ComplexProps";
 import RefProp from "./components/RefProp";
