@@ -14,7 +14,7 @@ function Button({ text, color, size, onClick, disabled }) {
         ${disabled ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}
         `}
     >
-      {text}
+      {text} {text}
     </button>
   );
 }
